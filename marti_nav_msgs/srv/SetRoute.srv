@@ -1,7 +1,9 @@
 # Set a route as active
 
-string guid # GUID of route to make active, as 32 hex digits
-bool repeat # If true, run the route repeatedly
+string guid       # GUID of route to make active, as 32 hex digits
+bool repeat       # If true, run the route repeatedly
+bool flip_order   # If true, flip the order of the route points
+bool toggle_gear  # If true, toggle the gear of each route point from drive to reverse or reverse to drive
 
 ---
 
